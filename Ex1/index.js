@@ -9,3 +9,6 @@ function geolocation() {
         mapa.innerText = 'Api de geolocalizacao';
     }
 }
+
+//Funciton geolocation serve para buscar a localização do usuário, através da permisssão que o usuário dá a
+//ao navegador

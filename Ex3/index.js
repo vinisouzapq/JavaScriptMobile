@@ -25,3 +25,5 @@ function vibracaoTerceiro() {
     console.log("Fim da terceira vibração")
 }
 
+
+//Funções para fazer o dispositivo vibrar
