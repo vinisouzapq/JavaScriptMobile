@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados- Ex4</title>
+    <style>
+        div {
+            padding: 10px;
+        }
+
+        #naoPreenchido {
+            display: none;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="nomeh"></h1>
+    <h2 id="ageh"></h2>
+    <p id="cidadeh"></p>
+    <div id="naoPreenchido"><h3>Preencha seus dados abaixo</h3></div>
+    <from>
+        <div><label>Nome: </label><input text id="nome" /></div>
+        <div><label>Cor Favorita: </label><input text id="favorita" /></div>
+        <div>Idade: </label><input type="number" id="age" /></div>
+        <div>Cidadee:</label><input type="text" id="cidade"></div>
+    </from>
+    <div><button id="salvar" onClick="Salvar()">Salvar</button></div>
+</body>
+
+</html>
+
+
+<!-- Crie uma página URL para armazenar os dados e preferências de uma pessoa. Esta
+página deve conter: Caso ele não tenha definido os parâmetros a página deverá
+aparecer a informação “Você deve setar as suas configurações” e um formulário
+abaixo para salvar as informações. Você deverá salvar nome, cor favorita (código
+hexadecimal), idade, cidade onde mora. Você deverá armazenar cada um desses
+itens separadamente em localStorage. Quando a página for carregada e o usuário
+tiver definido os parâmetros ela deverá apresentar o nome da pessoa em <h1> , o
+fundo da página (body) deverá ser da cor favorita, a idade deverá ser escrita em um
+<h2> e a cidade onde mora em um parágrafo.
+-->
